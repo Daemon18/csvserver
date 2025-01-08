@@ -17,7 +17,7 @@ services:
     ports:
       - "9090:9090"
     volumes:
-      - ./prometheus.yml:/etc/prometheus/prometheus.yml  # Corrected path here
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml  
     environment:
       - SCRAPE_INTERVAL=15s
     command:
