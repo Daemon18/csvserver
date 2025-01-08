@@ -1,0 +1,6 @@
+docker run -d \
+ --name testing \
+ -p 9393:8080 \
+ -v C:\\Users\\mathu\\csvserver\\solution\\inputFile:/csvserver/inputdata \
+ -e CSVSERVER_BORDER=Orange \
+ infracloudio/csvserver:latest
